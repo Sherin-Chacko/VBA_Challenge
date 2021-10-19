@@ -11,3 +11,7 @@ Comparing the 2017 and the 2018 stocks, the difference in the total daily volume
 
 ### POP-UPS WITH SCRIPT RUN TIME:
 The starter code contains a nested for-loop. When a loop is nested inside another loop, the inner loop runs many times inside the outer loop. 
+
+
+
+refactored code should run faster than it did in this module.
