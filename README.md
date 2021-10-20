@@ -16,16 +16,19 @@ The starter code contains a nested for-loop. When a loop is nested inside anothe
 
 <img width="265" alt="Screen Shot 2021-10-20 at 12 04 42 PM" src="https://user-images.githubusercontent.com/91294352/138129929-3d27ab5c-c16d-41db-a78c-2ef7f5bb8ba2.png">      <img width="267" alt="Screen Shot 2021-10-20 at 12 05 09 PM" src="https://user-images.githubusercontent.com/91294352/138129960-6749dd9b-c96e-4c92-aa53-ec9b0f0aa01d.png">
 
-The refactored code ran faster than it did in the original script. This is because before iterating through the dataset, the variable enabled me to assign the ticker volumes, ticker starting price and the ticker ending price to each ticker symbol. The execution times of the refactored script is as follows:
- <img width="267" alt="Popup_Refactored_2018" src="https://user-images.githubusercontent.com/91294352/138133538-5394702a-85e9-4574-a794-607746b2bb04.png">
+The refactored code ran faster than it did in the original script. This is because before iterating through the dataset, the variable enabled me to assign the ticker volumes, ticker starting price and the ticker ending price to each ticker symbol. In order to make my code more efficient, I needed to switch the nesting order of my for loops. The tickers array was used to establish the ticker symbol of a stock. I matched the other three arrays with the tickers array by using a variable called the tickerIndex.
+
+The execution times of the refactored script is as follows:
+
+ <img width="271" alt="Popup_Refactored_2017" src="https://user-images.githubusercontent.com/91294352/138137238-97226031-37a8-4e10-a56b-e07bb63785ae.png"> <img width="267" alt="Popup_Refactored_2018" src="https://user-images.githubusercontent.com/91294352/138133538-5394702a-85e9-4574-a794-607746b2bb04.png">
 
 ### 3. SUMMARY
 #### A) ADVANTAGES OF REFACTORING CODE:
-* Refacoring cleans the existing code and makes it more efficient to update and improve.
+* Refactoring cleans the existing code and makes it more efficient to update and improve.
 * It reduces the complexity, facilitates better understanding and reduces time for execution of the program. 
 
 #### B) DISADVANTAGES OF REFACTORING CODE:
 * It takes a lot of time to re-test the code. 
 
 #### c) PROS AND CONS OF REFRACTORING THE ORIGINAL VBA SCRIPT:
-*
+* The major advantage of refactoring code in VBA script is that we can utilize as much as of the original code as we would like to and keep testing our new code side by side with your old code. The major disadvantage of refactoring code in VBA script is that we need to have a strong understanding of the syntax to make our code more efficient.
