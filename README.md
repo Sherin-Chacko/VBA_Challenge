@@ -16,7 +16,8 @@ The starter code contains a nested for-loop. When a loop is nested inside anothe
 
 <img width="265" alt="Screen Shot 2021-10-20 at 12 04 42 PM" src="https://user-images.githubusercontent.com/91294352/138129929-3d27ab5c-c16d-41db-a78c-2ef7f5bb8ba2.png">      <img width="267" alt="Screen Shot 2021-10-20 at 12 05 09 PM" src="https://user-images.githubusercontent.com/91294352/138129960-6749dd9b-c96e-4c92-aa53-ec9b0f0aa01d.png">
 
-The refactored code ran faster than it did in the original script. This is because before iterating through the dataset, the variable enabled me to assign the ticker volumes, ticker starting price and the ticker ending price to each ticker symbol. In order to make my code more efficient, I needed to switch the nesting order of my for loops. The tickers array was used to establish the ticker symbol of a stock. I matched the other three arrays with the tickers array by using a variable called the tickerIndex.
+The refactored code ran faster than it did in the original script. This is because before iterating through the dataset, the variable enabled me to assign the ticker volumes, ticker starting price and the ticker ending price to each ticker symbol. In order to make my code more efficient, I needed to switch the nesting order of my for loops. The tickers array was used to establish the ticker symbol of a stock. I matched the other three arrays with the tickers array by using a variable called the tickerIndex as shown:
+<img width="280" alt="Snapshot of refactored code" src="https://user-images.githubusercontent.com/91294352/138156868-d549429b-d9eb-447a-bc71-1ce96ab3c140.png">
 
 The execution times of the refactored script is as follows:
 
