@@ -33,4 +33,5 @@ The execution times of the refactored script is as follows:
 * It takes a lot of time to re-test the code. 
 
 #### c) PROS AND CONS OF REFRACTORING THE ORIGINAL VBA SCRIPT:
-* The major advantage of refactoring code in VBA script is that we can utilize as much as of the original code as we would like to and keep testing our new code side by side with your old code. The major disadvantage of refactoring code in VBA script is that we need to have a strong understanding of the syntax to make our code more efficient.
+* The biggest benefit that occurred as a result of refactoring was an decrease in macro run time. The original analysis took approximately 0.66 seconds to run, whereas our new analysis only took approximately 0.11 seconds to run.
+* Another advantage of refactoring code in VBA script is that we can utilize as much as of the original code as we would like to and keep testing our new code side by side with your old code. The major disadvantage of refactoring code in VBA script is that we need to have a strong understanding of the syntax to make our code more efficient.
